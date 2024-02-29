@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+*{
+box-sizing : border-box;
+}
+
+body{
+    background-image: url(images/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    height: 100vh;
+    font-family: "Anta ", sans-serif;
+    display : flex;
+    flex-direction: column ;
+    align-items:center;
+    justify-content: center ; 
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight:bolder;
+    font-size: 70px;
+    margin: -400px 0 100px;
+    color: blueviolet;
+    position: relative;
+    top: 5px;
+}
+
+
+.countdown {
+    display: flex;
+    transform: scale(2);
+    top: 50px;
+    padding: 10px; 
+}
+
+.message-box {
+ border: 2px solid #b687aa;
+ padding: 15px;
+ margin-bottom: 20px;
+ width: 200px;
+ height: 150px;
+ margin-bottom: auto;
+ font-size: x-small;
+ font-family: 'Times New Roman', Times, serif;
+ color: #b687aa;
+ position: fixed;
+   bottom:  -170px;
+   right: -160px;
+}
+
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    margin: 15px ;
+}
+
+.time {
+    font-size: 24px;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+.small-image {
+    width: 500px;
+   height: 400px;
+   position: absolute;
+   bottom:  0px;
+   left: 0px;
+}
+
+.time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+}
+
+
+@media(max-width:500px){
+    h1{
+        font-size:  30px;
+    }
+    .time{
+        margin: 5px;
+    }
+    .time h2 {
+        font-size: 12px;
+    }
+    .time small{
+        font-size: 10px;
+    }
+    
+}
